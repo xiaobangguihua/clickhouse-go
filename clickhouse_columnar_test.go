@@ -7,9 +7,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ClickHouse/clickhouse-go"
-	"github.com/ClickHouse/clickhouse-go/lib/data"
 	"github.com/stretchr/testify/assert"
+	"github.com/xiaobangguihua/clickhouse-go"
+	"github.com/xiaobangguihua/clickhouse-go/lib/data"
 )
 
 func Test_ColumnarInsert(t *testing.T) {
